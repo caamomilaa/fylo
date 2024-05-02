@@ -4,9 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./assets/images/favicon-32x32.png" type="image/png">
   </head>
   <body>
-    <h1 class="title">Title</h1>
+    <main>
+      <div class="fylo-and-storage">
+        <div class="fylo-container">
+          <img class="logo" src="./assets/images/logo.svg" alt="">
+          <div class="icon-container">
+              <img class="icon document-icon" src="./assets/images/icon-document.svg" alt="document-icon">
+              <img class="icon folder-icon" src="./assets/images/icon-folder.svg" alt="folder-icon">
+              <img class="icon upload-icon" src="./assets/images/icon-upload.svg" alt="">
+        </div>
+        </div>
+        <div class="storage-container">
+          <p class="storage-text">You’ve used <span class="storage-text-bold">815 GB</span> of your storage</p>
+          <div class="storage-bar"></div>
+          <span class="gb-start">0 GB</span>
+          <span class="gb-end">1000 GB</span>
+        </div>
+      </div>
+      <div class="gb-container">
+        <span class="number-gb">185</span>
+        <span class="gb-left">GB LEFT</span>
+      </div>
+  </main>
   </body>
 </html>

@@ -10,4 +10,145 @@ img {
 }
 html {
   scroll-behavior: smooth;
+  background-color: #0F1B3D;
+}
+main{
+  font-family: "Raleway", sans-serif;
+  color: #DBD9FF;
+  margin: 129px 25px 25px 25px;
+}
+@media screen and (width >= 768px){
+  .fylo-and-storage{
+    display: flex;
+    gap: 30px;
+    align-items:end;
+  }
+  .fylo-container{
+    margin-bottom: 0;
+  }
+}
+.fylo-container{
+  width: 20.375rem;
+  height: 12.5625rem;
+  background-color: #1E2D69;
+  border-radius: 10px 100px 10px 10px;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+.logo{
+  width: 135.42px;
+  height: 40px;
+  margin-bottom: 2.1875rem;
+}
+.icon-container{
+  width: 177px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.icon{
+  background-color: #0C122C;
+  border-radius: 10px;
+}
+.document-icon{
+  padding: 12px 14px;
+}
+.folder-icon{
+  padding: 14px 12px;
+}
+.upload-icon{
+  padding: 16px 12px;
+}
+.storage-container{
+  width: 20.375rem;
+  height: 10rem;
+  background-color: #1E2D69;
+  border-radius: 10px;
+  padding: 29px 33px 57px 33px;
+}
+@media screen and (width >= 768px){
+  .storage-container{
+    width: 540px;
+    height: 154px;
+  }
+  .storage-bar{
+    position: relative;
+    width: 459px;
+  }
+}
+.storage-text{
+  font-size: 0.875rem;
+}
+.storage-text-bold{
+  font-weight: 700;
+}
+.storage-bar{
+  position: relative;
+  width: 262px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #0C122C;
+}
+.storage-bar::before{
+  position: absolute;
+  content: '';
+  width: 193px;
+  height: 14px;
+  border-radius: 8px;
+  background-image: linear-gradient( to right, #FFA197, #FF4A95);
+  top: 3.5px;
+  left: 3px;
+}
+.storage-bar::after{
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  top: 5px;
+  left: 183px;
+}
+.gb-start{
+  position: relative;
+  font-weight: 700;
+  font-size: 0.75rem;
+  top: 4px;
+}
+.gb-end{
+  position: relative;
+  font-weight: 700;
+  font-size: 0.75rem;
+  top: 4px;
+  left: 182px;
+}
+.gb-container{
+  position: relative;
+  width:179px ;
+  height:72px ;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+  top: -35px;
+  left: 74px;
+}
+@media screen and (width >= 768px){
+  .gb-container{
+    position: relative;
+    top: -200px;
+    left: 500px;
+  }
+}
+.number-gb{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0C122C;
+}
+.gb-left{
+  position: relative;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #0C122C;
+  top: -5px;
+  left: 3px;
 }
